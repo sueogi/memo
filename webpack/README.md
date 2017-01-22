@@ -42,6 +42,8 @@ babel-preset-es2015 如果不壓縮 js 檔案可以不用裝
 
 babel-preset-react、react、react-dom(如果是用react dom去render dom就要裝)
 
+這些套件不能安裝在全域，都必須安裝在本地的專案資料夾裡，會自動產生 node_modules
+
 ## 編譯
 
 ```bash
